@@ -3,19 +3,16 @@
     <header>
       <Menu></Menu>
     </header>
-
-    <main>
-      <b-container fluid style="min-height: 100% !important; ">
-        <b-row style="flex-grow: 1;">
-          <b-col md="12">
+    <main class="content">
+      <b-container fluid>
+        <b-row>
+          <b-col>
             <Nuxt />
           </b-col>
         </b-row>
       </b-container>
     </main>
-    <footer class="footer">
-      <span>Johor Powerlifting Association </span>
-    </footer>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -25,21 +22,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.wrapper {
-
-  min-height: 100vh;
-}
-
-.content {
-  flex: 1;
-}
-
-.footer {
-  background-color: #000000;
-  margin-top: 100px;
-  padding: 1rem;
-  text-align: center;
-  color: white;
-}
-</style>
+<style scoped></style>
