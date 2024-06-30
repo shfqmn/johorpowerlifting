@@ -1,34 +1,36 @@
 <template>
-  <LayoutPageSection class="flex-1 flex">
-    <div class="d-flex justify-content-center align-items-center wrapper">
-      <div class="wrapper2">
-        <div style="z-index: 20;" ref="poster" class="pt-2">
-          <div v-if="$screen.higherThan('md', $screen.current.value)">
-            <Img src="/jpo_poster.png" :width="400" class="img-fluid rounded mx-auto d-block" />
+  <LayoutPageWrapper class="flex-1 flex">
+    <LayoutPageSection class="flex-1 flex">
+      <div class="d-flex justify-content-center align-items-center wrapper">
+        <div class="wrapper2">
+          <div style="z-index: 20;" ref="poster" class="pt-2">
+            <div v-if="$screen.higherThan('md', $screen.current.value)">
+              <Img src="/jpo_poster.png" :width="550" class="img-fluid rounded mx-auto d-block posterImg" />
+            </div>
+            <div v-else>
+              <Img src="/jpo_poster.png" :width="450" class="img-fluid rounded mx-auto d-block posterImg" />
+            </div>
           </div>
-          <div v-else>
-            <Img src="/jpo_poster.png" :width="200" class="img-fluid rounded mx-auto d-block" />
+          <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
+            <h1 class="text-center"><span class="badge bg-secondary starting-soon">STARTING SOON</span></h1>
+            <div class=" clock pt-2">
+              <span>{{ days }}</span>
+              <span>{{ hours }}</span>
+              <span>{{ minutes }}</span>
+              <span>{{ seconds }}</span>
+            </div>
+          </div>
+          <h1 class="text-center"><span class="badge bg-secondary starting-soon">26.10.2024 - 27.10.2024</span></h1>
+          <div class="text-center pt-6">
+            <button class="shadow-lg">
+              <AwesomeButton text="Register Now" size="lg" />
+            </button>
           </div>
         </div>
-        <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
-          <h1 class="text-center"><span class="badge bg-secondary starting-soon">STARTING SOON</span></h1>
-          <div class=" clock pt-2">
-            <span>{{ days }}</span>
-            <span>{{ hours }}</span>
-            <span>{{ minutes }}</span>
-            <span>{{ seconds }}</span>
-          </div>
-        </div>
-        <h1 class="text-center"><span class="badge bg-secondary starting-soon">26.10.2024 - 27.10.2024</span></h1>
-        <div class="text-center pt-6">
-          <button class="shadow-lg">
-            <AwesomeButton text="Register Now" size="lg" />
-          </button>
-        </div>
+        <NuxtParticles id="tsparticles" :options="options" />
       </div>
-      <NuxtParticles id="tsparticles" :options="options" />
-    </div>
-  </LayoutPageSection>
+    </LayoutPageSection>
+  </LayoutPageWrapper>
 </template>
 
 <script setup lang="ts">
