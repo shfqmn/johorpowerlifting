@@ -19,6 +19,7 @@
             <span>{{ seconds }}</span>
           </div>
         </div>
+        <h1 class="text-center"><span class="badge bg-secondary starting-soon">26.10.2024 - 27.10.2024</span></h1>
         <div class="text-center pt-6">
           <button class="shadow-lg">
             <AwesomeButton text="Register Now" size="lg" />
