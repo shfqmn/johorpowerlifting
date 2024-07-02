@@ -8,7 +8,9 @@
   </LayoutPageWrapper>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({ layout: 'page' })
+</script>
 
 <style scoped>
 h1 {
