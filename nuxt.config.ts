@@ -29,33 +29,15 @@ export default defineNuxtConfig({
     '@pinia/nuxt', '@vueuse/nuxt', // contents,
     // todo: feat/localization
     // '@nuxtjs/i18n'
-    '@nuxt/content', "@nuxt/image", "@tresjs/nuxt","@nuxtjs/device",'nuxt-particles'],
+    '@nuxt/content', "@nuxt/image", "@tresjs/nuxt", "@nuxtjs/device", 'nuxt-particles'],
 
   css: [
     resolve('./assets/scss/_variables.scss'),
     resolve('./assets/scss/app.scss'),
   ],
 
-  components: [
-    {
-      prefix: 'Layout',
-      path: resolve('./components/layouts'),
-      global: true,
-    },
-    {
-      prefix: 'Awesome',
-      path: resolve('./components/awesome'),
-      global: true,
-    },
-    {
-      prefix: 'Jumbo',
-      path: resolve('./components/jumbo'),
-      global: true
-    }
-  ],
-
   imports: {
-    dirs: [resolve('./stores'), '~/stores'],
+    autoImport: true
   },
 
   // module::pinia
