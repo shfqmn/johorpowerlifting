@@ -10,9 +10,8 @@ const { awesome } = useAppConfig()
       <div>
         Copyright ©
         {{ awesome?.layout?.footer?.year || new Date().getFullYear() }}
-        {{ awesome?.author?.name || '' }}. All rights reserved.
+        JAP. All rights reserved.
       </div>
-      <div>{{ awesome.name }}</div>
     </div>
   </footer>
 </template>

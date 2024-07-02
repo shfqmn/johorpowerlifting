@@ -24,21 +24,21 @@ export default defineAppConfig({
               title: 'About Us',
               children: [
                 { type: 'link', title: 'Intro', to: { name: 'intro' } },
-                { type: 'link', title: 'Commitee Members', to: { name: 'blank' } },
-                { type: 'link', title: 'Affiliated Members', to: { name: 'blank' } }
+                { type: 'link', title: 'Commitee Members', to: { name: 'commitee-members' } },
+                { type: 'link', title: 'Affiliated Members', to: { name: 'affiliated-members' } }
               ]
             },
             {
               type: 'dropdown',
               title: 'Coaches',
               children: [
-                { type: 'link', title: 'JPCN', to: { name: 'blank' } }
+                { type: 'link', title: 'JPCN', to: { name: 'jpcn' } }
               ]
             },
             {
               type: 'link',
               title: 'Events',
-              to: { name: 'blank' }
+              to: { name: 'events' }
             },
             {
               type: 'dropdown',
@@ -52,12 +52,12 @@ export default defineAppConfig({
                 {
                   type: 'link',
                   title: 'State Records',
-                  to: { name: 'blank' }
+                  to: { name: 'state-records' }
                 },
                 {
                   type: 'link',
                   title: 'State Athletes',
-                  to: { name: 'blank' }
+                  to: { name: 'state-athletes' }
                 }
               ]
             },
