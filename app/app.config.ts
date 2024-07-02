@@ -47,7 +47,7 @@ export default defineAppConfig({
                 {
                   type: 'link',
                   title: 'Registration',
-                  to: { name: 'blank' }
+                  to: { name: 'register' }
                 },
                 {
                   type: 'link',
