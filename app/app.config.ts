@@ -23,7 +23,7 @@ export default defineAppConfig({
               type: 'dropdown',
               title: 'About Us',
               children: [
-                { type: 'link', title: 'Intro', to: { name: 'blank' } },
+                { type: 'link', title: 'Intro', to: { name: 'intro' } },
                 { type: 'link', title: 'Commitee Members', to: { name: 'blank' } },
                 { type: 'link', title: 'Affiliated Members', to: { name: 'blank' } }
               ]

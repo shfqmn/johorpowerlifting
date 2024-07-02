@@ -36,8 +36,21 @@ export default defineNuxtConfig({
     resolve('./assets/scss/app.scss'),
   ],
 
+  components: [
+    {
+      prefix: 'Layout',
+      path: resolve('./components/layouts'),
+      global: true,
+    },
+    {
+      prefix: 'Awesome',
+      path: resolve('./components/awesome'),
+      global: true,
+    }
+  ],
+
   imports: {
-    autoImport: true
+    dirs: [resolve('./stores'), '~/stores'],
   },
 
   // module::pinia
