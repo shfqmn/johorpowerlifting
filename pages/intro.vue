@@ -50,6 +50,26 @@
         </p>
       </div>
     </LayoutPageSection>
+    <LayoutPageSection>
+      <div>
+        <h1>Johor Association for Powerlifting (JAP)</h1>
+        <p>Johor Association for Powerlifting (JAP) was established on November 5, 2022, as a state-level association through the collaboration of 15 members. A paradigm shift for the strength sport is about to happen, and we have seen a significant number of new, strong, potential, and talented athletes joining the competition.</p>
+        <p>The association is founded on strong values that we carry with us in all our endeavors. We strive to provide what we set out to, in the best possible manner within our limited capabilities. We aspire to be one of the best-governed associations in the state of Johor. Our office bearers, officials, athletes, and members are extraordinary. We are confident that we will continue to meet the standards we set for ourselves and progressively enhance them, together in unity.</p>
+        <p>In the development and growth of this sport in the state of Johor, last year we secured cooperation from TWO gyms in the Johor Bahru district to make their premises powerlifting training centers. These gyms are STRENGTH MASTERY, Taman Seri Austin, Johor Bahru, and JOHOR PERFORMANCE TRAINING CENTRE, Sutera Sports World, Taman Sutera Utama, Skudai. As the sport of powerlifting continues to develop in the future, we have received support from several interested gyms to collaborate with us in nurturing and developing more powerlifting athletes in the state of Johor.</p>
+        <p>We also aim to advance this sport by introducing powerlifting from the secondary school and IPTA (public universities) levels to nurture new athletes under the 'Sub-Junior' category. As an international sport, we were given the opportunity to be the venue host for the 1st SEA CUP POWERLIFTING 2022 at Hotel Trove, Johor Bahru, from September 15-18, 2022, under the Malaysian Powerlifting Association. Following this competition, we were praised for our handling, which was on par with the Asian level, and in December 2023, we were given the opportunity to be the venue host for the ASIAN CLASSIC CHAMPIONSHIP 2023 from December 10-18, 2023, at Hotel Trove, Johor Bahru. Following this year, we aim to bring more state, national, and international level competitions in the future.</p>
+      </div>
+    </LayoutPageSection>
+    <LayoutPageSection>
+      <div>
+        <h1>Certificates</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+          <NuxtImg src="kbs-cert.png" />
+          <NuxtImg src="map-cert.png" />
+          <NuxtImg src="map-jap-cert.png" />
+          <NuxtImg src="apf-cert.jpg" />
+        </div>
+      </div>
+    </LayoutPageSection>
   </LayoutPageWrapper>
 </template>
 
