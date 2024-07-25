@@ -84,6 +84,10 @@ export default defineNuxtConfig({
     lazy: true
   },
 
+  image: {
+    domains: ['johorpowerlifting.vercel.app']
+  },
+
   // todo: feat/localization
   // module::i18n
   // i18n: {
