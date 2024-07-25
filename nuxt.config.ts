@@ -85,7 +85,9 @@ export default defineNuxtConfig({
   },
 
   image: {
-    domains: ['johorpowerlifting.vercel.app']
+    domains: ['johorpowerlifting.vercel.app'],
+    quality: 10,
+    format:['webp','jpeg']
   },
 
   // todo: feat/localization
