@@ -65,7 +65,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
           <img src="/kbs-cert.png" />
           <img src="/map-cert.png" />
-          <img src="map-jap-cert.png" />
+          <img src="/map-jap-cert.png" />
           <img src="/apf-cert.jpg" />
         </div>
       </div>
