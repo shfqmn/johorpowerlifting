@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt', '@vueuse/nuxt', // contents,
     // todo: feat/localization
     // '@nuxtjs/i18n'
-    '@nuxt/content', "@nuxt/image", "@tresjs/nuxt", "@nuxtjs/device", 'nuxt-particles'],
+    '@nuxt/content', "@nuxt/image", "@tresjs/nuxt", "@nuxtjs/device", 'nuxt-particles', '@nuxt/image-edge'],
 
   css: [
     resolve('./assets/scss/_variables.scss'),
@@ -87,7 +87,7 @@ export default defineNuxtConfig({
   image: {
     domains: ['johorpowerlifting.vercel.app'],
     quality: 10,
-    format:['webp','jpeg']
+    format: ['webp', 'jpeg']
   },
 
   // todo: feat/localization
