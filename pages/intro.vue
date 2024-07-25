@@ -63,10 +63,10 @@
       <div>
         <h1>Certificates</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
-          <NuxtImg src="kbs-cert.png" />
-          <NuxtImg src="map-cert.png" />
-          <NuxtImg src="map-jap-cert.png" />
-          <NuxtImg src="apf-cert.jpg" />
+          <NuxtImg src="/kbs-cert.png" />
+          <NuxtImg src="/map-cert.png" />
+          <NuxtImg src="/map-jap-cert.png" />
+          <NuxtImg src="/apf-cert.jpg" />
         </div>
       </div>
     </LayoutPageSection>
