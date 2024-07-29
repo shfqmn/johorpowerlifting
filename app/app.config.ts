@@ -57,7 +57,7 @@ export default defineAppConfig({
                 {
                   type: 'link',
                   title: 'State Athletes',
-                  to: { name: 'state-athletes' }
+                  to: { name: 'athletes' }
                 }
               ]
             },
