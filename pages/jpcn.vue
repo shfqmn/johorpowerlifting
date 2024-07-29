@@ -4,9 +4,9 @@
       <div>
         <h1>Johor Powerlifting Coaching Network (JPCN)</h1>
         <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/wj.png" class="object-contain w-30 h-auto image-zoomable" />
-          <img src="/ez.jpg" class="object-contain w-30 h-auto image-zoomable" />
-          <img src="/forge.png" class="object-contain w-30 h-auto image-zoomable" />
+          <img src="/wj.png" class="object-scale-down w-30 h-auto image-zoomable" />
+          <img src="/ez.jpg" class="object-scale-down w-30 h-auto image-zoomable" />
+          <img src="/forge.png" class="object-scale-down w-30 h-auto image-zoomable" />
         </div>
       </div>
     </LayoutPageSection>

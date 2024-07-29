@@ -10,14 +10,14 @@
         <NuxtLink to="/events/kbs-deadlift-2023">
           <h3>Pengenalan Deadlift KBS Fit Malaysia</h3>
         </NuxtLink>
-        <NuxtLink to="jpo-2023">
+        <NuxtLink to="/events/jpo-2023">
           <h3>JPO Vol. 1 2023</h3>
         </NuxtLink>
         <NuxtLink to="/events/asians-2023">
           <h3>Asian Classic Powerlifting Championship</h3>
         </NuxtLink>
         <h2>2022</h2>
-        <NuxtLink to="sea-cup-2022">
+        <NuxtLink to="/events/sea-cup-2022">
           <h3>SEA Cup 2022</h3>
         </NuxtLink>
       </div>
