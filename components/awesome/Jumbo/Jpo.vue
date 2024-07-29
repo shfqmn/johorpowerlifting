@@ -28,11 +28,9 @@
               <span class="badge bg-secondary starting-soon">26.10.2024 - 27.10.2024</span>
             </h1>
             <div class="text-center pt-6">
-              <NuxtLink to="https://docs.google.com/forms/d/1b-_twTrtS8dsfl2O7TgFmRTKVg2TPa6E2QhwepYq7Mc">
-                <button class="shadow-lg">
-                  <AwesomeButton text="Register Now" size="lg" />
-                </button>
-              </NuxtLink>
+              <button class="shadow-lg">
+                <AwesomeButton text="Register Now" size="lg" to="https://docs.google.com/forms/d/1b-_twTrtS8dsfl2O7TgFmRTKVg2TPa6E2QhwepYq7Mc" />
+              </button>
             </div>
           </div>
         </div>
