@@ -3,7 +3,7 @@
     <LayoutPageSection>
       <h1>Affiliated Members</h1>
       <div>
-        <div class="grid grid-cols md:grid-cols-3 mb-5">
+        <div class="grid grid-cols md:grid-cols-2 mb-5">
           <div>
             <img src="/sm.png" class="w-[400px]" />
           </div>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="mt-16">
-        <div class="grid grid-cols md:grid-cols-3 mb-5">
+        <div class="grid grid-cols md:grid-cols-2 mb-5">
           <div>
             <img src="/jptc.png" class="w-[300px]" />
           </div>
