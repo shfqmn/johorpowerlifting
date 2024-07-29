@@ -56,6 +56,6 @@ p {
 
 a:hover {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 </style>
