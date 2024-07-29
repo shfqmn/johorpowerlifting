@@ -1,7 +1,7 @@
 import { ClientOnly } from '../app/.nuxt/components';
 <script lang="ts" setup>
 const { awesome } = useAppConfig()
-definePageMeta({ layout: 'page' })
+definePageMeta({ layout: 'full' })
 useHead({ title: "Johor Association for Powerlifting" })
 </script>
 
