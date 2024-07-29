@@ -7,7 +7,7 @@
           <div>
             <img src="/sm.png" class="w-[400px]" />
           </div>
-          <div>
+          <div class="ml-3">
             <h2>Strength Mastery Gym</h2>
             <p>Contact Number (Whatsapp): +6011-13289101</p>
             <p>
@@ -26,7 +26,7 @@
           <div>
             <img src="/jptc.png" class="w-[300px]" />
           </div>
-          <div>
+          <div class="ml-3">
             <h2>Johor Performance Training Center</h2>
             <p>Contact Number (Whatsapp): +6011-13289101</p>
             <p>
