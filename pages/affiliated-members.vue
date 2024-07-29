@@ -5,7 +5,7 @@
       <div>
         <div class="grid grid-cols md:grid-cols-3 mb-5">
           <div>
-            <img src="sm.png" class="w-[400px]" />
+            <img src="/sm.png" class="w-[400px]" />
           </div>
           <div>
             <h2>Strength Mastery Gym</h2>
@@ -16,15 +16,15 @@
           </div>
         </div>
         <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="sm1.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="sm2.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="sm3.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/sm1.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/sm2.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/sm3.jpg" class="object-contain w-50 h-auto image-zoomable" />
         </div>
       </div>
       <div class="mt-16">
         <div class="grid grid-cols md:grid-cols-3 mb-5">
           <div>
-            <img src="jptc.png" class="w-[300px]" />
+            <img src="/jptc.png" class="w-[300px]" />
           </div>
           <div>
             <h2>Johor Performance Training Center</h2>
@@ -35,9 +35,9 @@
           </div>
         </div>
         <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="jptc1.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="jptc2.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="jptc3.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/jptc1.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/jptc2.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/jptc3.jpg" class="object-contain w-50 h-auto image-zoomable" />
         </div>
       </div>
     </LayoutPageSection>
