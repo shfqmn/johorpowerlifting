@@ -3,7 +3,7 @@
     <LayoutPageSection>
       <h1>Affiliated Members</h1>
       <div>
-        <div class="grid grid-cols md:grid-cols-2 mb-5">
+        <div class="grid grid-cols md:grid-cols-2 xl:grid-cols-3 mb-5">
           <div>
             <img src="/sm.png" class="w-[400px]" />
           </div>
@@ -15,16 +15,16 @@
             </p>
           </div>
         </div>
-        <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3  gap-4">
           <img src="/sm1.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/sm2.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/sm3.jpg" class="object-contain w-50 h-auto image-zoomable" />
         </div>
       </div>
       <div class="mt-16">
-        <div class="grid grid-cols md:grid-cols-2 mb-5">
+        <div class="grid grid-cols md:grid-cols-2 xl:grid-cols-3 mb-5">
           <div>
-            <img src="/jptc.png" class="w-[300px]" />
+            <img src="/jptc.png" class="w-[300px] rounded-full" />
           </div>
           <div class="ml-3">
             <h2>Johor Performance Training Center</h2>
