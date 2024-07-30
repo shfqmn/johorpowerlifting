@@ -3,6 +3,7 @@
     <LayoutPageSection>
       <div>
         <h1>State Records</h1>
+        <h3>Coming Soon !</h3>
       </div>
     </LayoutPageSection>
   </LayoutPageWrapper>
