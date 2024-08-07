@@ -72,6 +72,7 @@
 </template>
 
 <script setup lang="ts">
+import NuxtImg from '@nuxt/image'
 import VanillaTilt from 'vanilla-tilt'
 import type { Container } from 'tsparticles-engine'
 const poster = ref()
