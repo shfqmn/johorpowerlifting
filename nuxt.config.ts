@@ -90,10 +90,6 @@ export default defineNuxtConfig({
     format: ['webp', 'jpeg']
   },
 
-  nitro: {
-    static: true
-  }
-
   // todo: feat/localization
   // module::i18n
   // i18n: {
