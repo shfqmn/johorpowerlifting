@@ -72,8 +72,7 @@
 </template>
 
 <script setup lang="ts">
-import VanillaTilt from 'vanilla-tilt'
-import type { Container } from 'tsparticles-engine'
+import VanillaTilt from 'vanilla-tilt';
 const poster = ref()
 const $screen = useAwesomeScreen()
 const days = ref()
