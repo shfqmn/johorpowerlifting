@@ -39,27 +39,27 @@
             <h1 class="text-center fs-1 text-black">PARTNERS</h1>
             <div class="slider pt-4">
               <div class="item">
-                <a href="#">
+                <a href="https://asia-powerlifting.com">
                   <Img src="apf.png" width="200" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
-                <a href="#">
+                <a href="https://kbs.gov.my">
                   <Img src="kbs.png" width="205" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
-                <a href="#">
+                <a href="https://powerliftingmalaysia.com">
                   <Img src="map.png" width="270" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
-                <a href="#">
+                <a href="https://adamas.gov.my">
                   <Img src="adamas.png" width="350" class="img-fluid mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
-                <a href="#">
+                <a href="https://powerlifting.sport">
                   <Img src="ipf.png" width="270" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
