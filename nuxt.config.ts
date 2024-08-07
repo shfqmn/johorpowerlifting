@@ -92,9 +92,9 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'vercel-edge',
+    preset: 'vercel-static',
+    static: true
   },
-  ssr: true
 
   // todo: feat/localization
   // module::i18n
