@@ -35,18 +35,16 @@
         <h1>Classes and Categories</h1>
         <h3>Men</h3>
         <p>
-          Up to 53kg (Sub-Junior/Junior), 59 kg, 66 kg, 74 kg, 83 kg, 93 kg, 105
-          kg, 120 kg, 120 kg+
+          Up to 53kg (Sub-Junior/Junior), 59kg, 66kg, 74kg, 83kg, 93kg, 105kg, 120kg, 120kg+
         </p>
         <h3>Women</h3>
         <p>
-          Up to 43kg (Sub-Junior/Junior), 47 kg, 52 kg, 57 kg, 63 kg, 69 kg, 76
-          kg, 84 kg, 84 kg+
+          Up to 43kg (Sub-Junior/Junior), 47kg, 52kg, 57kg, 63kg, 69kg, 76kg, 84kg, 84kg+
         </p>
         <h3>Age Categories</h3>
         <p>
-          sub-junior (18 and under), junior (18-23), open (any age), masters 1
-          (39-49), masters 2 (49-59), masters 3 (59-69), masters 4 (69+)
+          sub-junior (18 and under), junior (18-23), open (24-39), masters 1
+          (40-49), masters 2 (50-59), masters 3 (60-69), masters 4 (70+)
         </p>
       </div>
     </LayoutPageSection>
@@ -75,6 +73,9 @@
 
 <script setup lang="ts">
 definePageMeta({ layout: 'page' })
+onMounted(() => {
+
+})
 </script>
 
 <style scoped>
