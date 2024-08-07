@@ -93,10 +93,10 @@ const options = {
   },
   particles: {
     color: {
-      value: '#fff',
+      value: '#000',
     },
     links: {
-      color: '#fff',
+      color: '#000',
       enable: true,
     },
     move: {
