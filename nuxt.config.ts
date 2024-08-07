@@ -86,7 +86,7 @@ export default defineNuxtConfig({
 
   image: {
     domains: ['johorpowerlifting.vercel.app', 'johorpowerlifting.com.my'],
-    quality: 10,
+    quality: 80,
     provider: 'vercel',
     format: ['webp', 'jpeg']
   },

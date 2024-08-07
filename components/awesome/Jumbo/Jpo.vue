@@ -7,7 +7,7 @@
             <NuxtParticles id="tsparticles" :options="options" />
             <div style="z-index: 20" ref="poster" class="pt-2">
               <div v-if="$screen.higherThan('md', $screen.current.value)">
-                <NuxtImg src="/jpo_poster.png" width="550" preset="cover" height="100" sizes="sm:100vw md:50vw lg:400px" format="webp" quality="70" class="img-fluid rounded mx-auto d-block posterImg" />
+                <NuxtImg src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block posterImg" />
               </div>
               <div v-else>
                 <Img src="/jpo_poster.png" :width="450" class="img-fluid rounded mx-auto d-block posterImg" />
