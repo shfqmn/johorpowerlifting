@@ -7,10 +7,10 @@
             <NuxtParticles id="tsparticles" :options="options" />
             <div style="z-index: 20" ref="poster" class="pt-2">
               <div v-if="$screen.higherThan('md', $screen.current.value)">
-                <NuxtImg src="/jpo_poster.png" :width="550" class="img-fluid rounded mx-auto d-block posterImg" />
+                <Img src="/jpo_poster.png" :width="550" class="img-fluid rounded mx-auto d-block posterImg" />
               </div>
               <div v-else>
-                <NuxtImg src="/jpo_poster.png" :width="450" class="img-fluid rounded mx-auto d-block posterImg" />
+                <Img src="/jpo_poster.png" :width="450" class="img-fluid rounded mx-auto d-block posterImg" />
               </div>
             </div>
             <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
@@ -40,27 +40,27 @@
             <div class="slider pt-4">
               <div class="item">
                 <a href="https://asia-powerlifting.com">
-                  <NuxtImg src="apf.png" width="200" class="img-fluid rounded mx-auto d-block" />
+                  <Img src="apf.png" width="200" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://kbs.gov.my">
-                  <NuxtImg src="kbs.png" width="205" class="img-fluid rounded mx-auto d-block" />
+                  <Img src="kbs.png" width="205" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://powerliftingmalaysia.com">
-                  <NuxtImg src="map.png" width="270" class="img-fluid rounded mx-auto d-block" />
+                  <Img src="map.png" width="270" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://adamas.gov.my">
-                  <NuxtImg src="adamas.png" width="350" class="img-fluid mx-auto d-block" />
+                  <Img src="adamas.png" width="350" class="img-fluid mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://powerlifting.sport">
-                  <NuxtImg src="ipf.png" width="270" class="img-fluid rounded mx-auto d-block" />
+                  <Img src="ipf.png" width="270" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
             </div>
@@ -72,7 +72,6 @@
 </template>
 
 <script setup lang="ts">
-import NuxtImg from '@nuxt/image'
 import VanillaTilt from 'vanilla-tilt'
 import type { Container } from 'tsparticles-engine'
 const poster = ref()
