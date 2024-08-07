@@ -88,7 +88,7 @@ const options = {
   },
   background: {
     color: {
-      value: '#030712',
+      value: '#FFFFFF',
     },
   },
   particles: {
@@ -178,10 +178,6 @@ onMounted(async () => {
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
-}
-
-.posterImg {
-  background-color: white;
 }
 
 .clock {
