@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt', '@vueuse/nuxt', // contents,
     // todo: feat/localization
     // '@nuxtjs/i18n'
-    '@nuxt/content', "@nuxt/image", "@tresjs/nuxt", "@nuxtjs/device", 'nuxt-particles', '@nuxt/image-edge'],
+    '@nuxt/content', "@nuxt/image", "@tresjs/nuxt", "@nuxtjs/device", 'nuxt-particles'],
 
   css: [
     resolve('./assets/scss/_variables.scss'),
