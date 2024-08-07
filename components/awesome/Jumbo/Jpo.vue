@@ -15,7 +15,7 @@
             </div>
             <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
               <h1 class="text-center text-white pb-1">
-                <span class="badge bg-secondary">STARTING SOON</span>
+                <span class="badge text-black">STARTING SOON</span>
               </h1>
               <div class="clock pt-2">
                 <span>{{ days }}</span>
@@ -36,7 +36,7 @@
         </div>
         <div class="row">
           <div class="pt-12">
-            <h1 class="text-center fs-1 text-white">PARTNERS</h1>
+            <h1 class="text-center fs-1 text-black">PARTNERS</h1>
             <div class="slider pt-4">
               <div class="item">
                 <a href="#">
