@@ -4,7 +4,7 @@
       <div class="athlete-profile">
         <img src="/athletes/aiman.jpg" alt="Muhammad Shafiq Aiman bin Zaharuddin" class="athlete-image" />
         <h1>Muhammad Shafiq Aiman bin Zaharuddin</h1>
-        <p>U66 Men Open</p>
+        <p>U120/120+ Men Open</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/aimancs">
           <p><strong>@aimancs</strong></p>
         </NuxtLink>

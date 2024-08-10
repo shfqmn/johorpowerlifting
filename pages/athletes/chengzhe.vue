@@ -3,8 +3,8 @@
     <LayoutPageSection>
       <div class="athlete-profile">
         <img src="/athletes/chengzhe.jpg" alt="Lee Cheng Zhe" class="athlete-image" />
-        <h1>Muhammad Zul Eirfan</h1>
-        <p>U66 Men Open</p>
+        <h1>Lee Cheng Zhe</h1>
+        <p>U59 Men Sub Junior</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/chengzhe_lee">
           <p><strong>@chengzhe_lee</strong></p>
         </NuxtLink>
@@ -16,7 +16,7 @@
 
         <h1>Competition Records</h1>
         <p>JPO Vol.1 2023 - 2nd Place</p>
-        <p>Strength Academy Classic - 2nd Place</p>
+        <p>Strength Academy Classic 2024 - 2nd Place</p>
         <P>MAP National Chamiopnship 2024 - 3rd Place</p>
       </div>
     </LayoutPageSection>

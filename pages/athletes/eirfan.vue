@@ -11,8 +11,8 @@
 
         <h1>Personal Records</h1>
         <p><strong>Squat: </strong>205kg</p>
-        <p><strong>Bench: </strong>120kg</p>
-        <p><strong>Deadlift: </strong>230kg</p>
+        <p><strong>Bench: </strong>125kg</p>
+        <p><strong>Deadlift: </strong>255kg</p>
 
         <h1>Competition Records</h1>
         <p>MPA Raw 2022 - 3rd Place</p>
