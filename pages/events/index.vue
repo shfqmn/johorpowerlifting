@@ -5,7 +5,7 @@
         <h1>Events</h1>
         <h2>2024</h2>
         <NuxtLink to="/events/agm-2024">
-          <h3>Annual General Meeting 2024</h3>
+          <h3>Annual General Meeting JAP 2024</h3>
         </NuxtLink>
         <h2>2023</h2>
         <NuxtLink to="/events/agm-2023">
