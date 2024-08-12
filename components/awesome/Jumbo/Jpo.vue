@@ -44,7 +44,7 @@
                 </a>
               </div>
               <div class="item">
-                <a href="https://kbs.gov.my">
+                <a href="https://www.kbs.gov.my">
                   <Img src="kbs.png" width="205" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
@@ -54,7 +54,7 @@
                 </a>
               </div>
               <div class="item">
-                <a href="https://adamas.gov.my">
+                <a href="https://www.adamas.gov.my">
                   <Img src="adamas.png" width="350" class="img-fluid mx-auto d-block" />
                 </a>
               </div>
