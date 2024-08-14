@@ -3,17 +3,12 @@ const { awesome } = useAppConfig()
 const { parseMenuRoute, parseMenuTitle } = useNavbarParser()
 const $screen = useAwesomeScreen()
 const nuxtApp = useNuxtApp()
-
-const menus = computed(
-  () =>
-    (awesome?.layout?.page?.navbar?.menus ||
-      []) as AwesomeLayoutPageNavbarMenu[],
-)
-
-// drawer
 const showDrawer = ref(false);
 const showBackButton = nuxtApp.$router.currentRoute.value.path !== "/";
-console.log($screen);
+const menus = computed(() =>
+    (awesome?.layout?.page?.navbar?.menus ||
+      []) as AwesomeLayoutPageNavbarMenu[],
+);
 </script>
 
 <template>
@@ -21,7 +16,7 @@ console.log($screen);
     <!-- content -->
     <div class="flex-1 flex items-center justify-between max-w-screen-2xl mx-auto px-4">
       <!-- title -->
-       <NuxtLink @click="this.$router.go(-1)" class="text-gray-400 hover:text-gray-100" v-if="showBackButton && !$screen.higherThan('md', $screen.current.value)">
+       <NuxtLink @click="nuxtApp.$router.go(-1)" class="text-gray-400 hover:text-gray-100" v-if="showBackButton && !$screen.higherThan('md', $screen.current.value)">
         <Icon name="heroicons:arrow-left" class="h-6 w-6" />
       </NuxtLink>
       <div>
