@@ -11,7 +11,9 @@ const menus = computed(
 )
 
 // drawer
-const showDrawer = ref(false)
+const showDrawer = ref(false);
+const showBackButton = nuxtApp.$router.currentRoute.value.path !== "/";
+console.log($screen);
 </script>
 
 <template>
@@ -19,6 +21,9 @@ const showDrawer = ref(false)
     <!-- content -->
     <div class="flex-1 flex items-center justify-between max-w-screen-2xl mx-auto px-4">
       <!-- title -->
+       <NuxtLink @click="this.$router.go(-1)" class="text-gray-400 hover:text-gray-100" v-if="showBackButton && !$screen.higherThan('md', $screen.current.value)">
+        <Icon name="heroicons:arrow-left" class="h-6 w-6" />
+      </NuxtLink>
       <div>
         <slot name="title">
           <NuxtLink to="/" class="font-bold text-lg">
@@ -121,7 +126,6 @@ const showDrawer = ref(false)
     </AwesomeActionSheet>
   </header>
 </template>
-
 <style scoped>
 .logo {
   height: 60px;
