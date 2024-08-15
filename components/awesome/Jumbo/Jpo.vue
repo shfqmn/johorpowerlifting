@@ -6,8 +6,8 @@
           <div class="wrapper2">
             <NuxtParticles id="tsparticles" :options="options" />
             <div style="z-index: 20" ref="poster" class="pt-2">
-              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block posterImg" v-if="$screen.higherThan('md', $screen.current.value)" />
-              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="450" class="img-fluid rounded mx-auto d-block posterImg" v-else />
+              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block w-[35rem] h-auto" v-if="$screen.higherThan('md', $screen.current.value)" />
+              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block w-[19.5rem]" v-else />
             </div>
             <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
               <h1 class="text-center text-white pb-1">
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="pt-12">
+          <div class="pt-[10rem]">
             <h1 class="text-center fs-1 text-black">OFFICIAL EQUIPMENT</h1>
             <div class="slider p-2">
               <div class="item">
