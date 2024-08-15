@@ -6,12 +6,8 @@
           <div class="wrapper2">
             <NuxtParticles id="tsparticles" :options="options" />
             <div style="z-index: 20" ref="poster" class="pt-2">
-              <div v-if="$screen.higherThan('md', $screen.current.value)">
-                <NuxtImg provider="twicpics" src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block posterImg" />
-              </div>
-              <div v-else>
-                <NuxtImg provider="twicpics" src="/jpo_poster.png" width="450" class="img-fluid rounded mx-auto d-block posterImg" />
-              </div>
+              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block posterImg" v-if="$screen.higherThan('md', $screen.current.value)" />
+              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="450" class="img-fluid rounded mx-auto d-block posterImg" v-else />
             </div>
             <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
               <h1 class="text-center text-white pb-1">
@@ -46,7 +42,7 @@
               </div>
               <div class="item">
                 <a href="https://www.instagram.com/hansupower_mas">
-                  <NuxtImg provider="twicpics" src="/hansu.webp" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)"/>
+                  <NuxtImg provider="twicpics" src="/hansu.webp" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)" />
                   <NuxtImg provider="twicpics" src="/hansu.webp" class="object-contain size-[5rem]" v-else />
                 </a>
               </div>
