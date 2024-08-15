@@ -87,6 +87,9 @@ export default defineNuxtConfig({
   image: {
     twicpics: {
       baseURL: 'https://johorpowerlifting.twic.pics'
+    },
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/johorpowerlifting/image/upload/public/'
     }
   },
 

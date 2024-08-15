@@ -4,7 +4,7 @@
       <div>
         <h1>Asian Classic Powerlifting Championship 2023</h1>
         <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/asians2023/asians-2023-13.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/asians2023/asians-2023-13.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/asians2023/asians-2023-14.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/asians2023/asians-2023-15.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/asians2023/asians-2023-16.jpg" class="object-contain w-50 h-auto image-zoomable" />
