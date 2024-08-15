@@ -10,7 +10,7 @@
                 <Img src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block posterImg" />
               </div>
               <div v-else>
-                <Img src="/jpo_poster.png" :width="450" class="img-fluid rounded mx-auto d-block posterImg" />
+                <Img src="/jpo_poster.png" width="450" class="img-fluid rounded mx-auto d-block posterImg" />
               </div>
             </div>
             <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
@@ -36,8 +36,27 @@
         </div>
         <div class="row">
           <div class="pt-12">
+            <h1 class="text-center fs-1 text-black">OFFICIAL EQUIPMENT</h1>
+            <div class="slider p-2">
+              <div class="item">
+                <a href="https://www.instagram.com/bull_training">
+                  <Img src="bull.png" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)" />
+                  <Img src="bull.png" class="object-contain size-[5rem]" v-else />
+                </a>
+              </div>
+              <div class="item">
+                <a href="https://www.instagram.com/hansupower_mas">
+                  <Img src="/hansu.webp" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)"/>
+                  <Img src="/hansu.webp" class="object-contain size-[5rem]" v-else />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="pt-12">
             <h1 class="text-center fs-1 text-black">PARTNERS</h1>
-            <div class="slider pt-4">
+            <div class="slider p-2">
               <div class="item">
                 <a href="https://asia-powerlifting.com">
                   <Img src="apf.png" width="200" class="img-fluid rounded mx-auto d-block" />
