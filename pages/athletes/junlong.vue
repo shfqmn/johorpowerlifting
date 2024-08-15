@@ -2,7 +2,7 @@
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div class="athlete-profile">
-        <img src="/athletes/junlong.jpg" alt="Chong Jun Long" class="athlete-image" />
+        <NuxtImg provider="cloudinary" src="/athletes/junlong.jpg" alt="Chong Jun Long" class="athlete-image" />
         <h1>Chong Jun Long</h1>
         <p>U59 Men Sub Junior</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/junlong0726">

@@ -2,7 +2,7 @@
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div class="athlete-profile">
-        <img src="/athletes/chengzhe.jpg" alt="Lee Cheng Zhe" class="athlete-image" />
+        <NuxtImg provider="cloudinary" src="/athletes/chengzhe.jpg" alt="Lee Cheng Zhe" class="athlete-image" />
         <h1>Lee Cheng Zhe</h1>
         <p>U59 Men Sub Junior</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/chengzhe_lee">

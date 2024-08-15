@@ -7,7 +7,7 @@
           <div v-for="athlete in athletes" :key="athlete.name" class="athlete-card">
             <div>
               <NuxtLink :to="`/athletes/${athlete.link}`">
-                <img :src="athlete.image" :alt="athlete.name" class="athlete-image" />
+                <NuxtImg provider="cloudinary" :src="athlete.image" :alt="athlete.name" class="athlete-image" />
                 <h2>{{ athlete.name }}</h2>
                 <p>{{ athlete.title }}</p>
               </NuxtLink>

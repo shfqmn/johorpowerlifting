@@ -2,7 +2,7 @@
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div class="athlete-profile">
-        <img src="/athletes/carmen.jpg" alt="Muhammad Zul Eirfan" class="athlete-image" />
+        <NuxtImg provider="cloudinary" src="/athletes/carmen.jpg" alt="Muhammad Zul Eirfan" class="athlete-image" />
         <h1>Carmen Kuan</h1>
         <p>U69 Women Open</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/maeenauk_">

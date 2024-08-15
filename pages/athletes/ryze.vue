@@ -2,7 +2,7 @@
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div class="athlete-profile">
-        <img src="/athletes/ryze.jpg" alt="Ryze Syean Sylvester" class="athlete-image" />
+        <NuxtImg provider="cloudinary" src="/athletes/ryze.jpg" alt="Ryze Syean Sylvester" class="athlete-image" />
         <h1>Ryze Syean Sylvester</h1>
         <p>U66 Men Open</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/r.syean">

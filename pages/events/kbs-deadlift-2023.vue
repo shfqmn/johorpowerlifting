@@ -4,11 +4,11 @@
       <div>
         <h1>Pengenalan Deadlift, KBS Fit Malaysia</h1>
         <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <img src="/deadlift-kbs1.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="/deadlift-kbs2.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="/deadlift-kbs3.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="/deadlift-kbs4.jpg" class="object-contain w-50 h-auto image-zoomable" />
-          <img src="/deadlift-kbs5.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/deadlift-kbs1.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/deadlift-kbs2.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/deadlift-kbs3.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/deadlift-kbs4.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/deadlift-kbs5.jpg" class="object-contain w-50 h-auto image-zoomable" />
         </div>
       </div>
     </LayoutPageSection>

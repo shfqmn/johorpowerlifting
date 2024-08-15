@@ -2,7 +2,7 @@
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div class="athlete-profile">
-        <img src="/athletes/aiman.jpg" alt="Muhammad Shafiq Aiman bin Zaharuddin" class="athlete-image" />
+        <NuxtImg provider="cloudinary" src="/athletes/aiman.jpg" alt="Muhammad Shafiq Aiman bin Zaharuddin" class="athlete-image" />
         <h1>Muhammad Shafiq Aiman bin Zaharuddin</h1>
         <p>U120/120+ Men Open</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/aimancs">

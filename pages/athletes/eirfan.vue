@@ -2,7 +2,7 @@
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div class="athlete-profile">
-        <img src="/athletes/eirfan.jpg" alt="Muhammad Zul Eirfan" class="athlete-image" />
+        <NuxtImg provider="cloudinary" src="/athletes/eirfan.jpg" alt="Muhammad Zul Eirfan" class="athlete-image" />
         <h1>Muhammad Zul Eirfan</h1>
         <p>U66 Men Open</p>
         <NuxtLink target="_blank" to="https://www.instagram.com/zuleirfansalim">

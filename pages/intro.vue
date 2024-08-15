@@ -61,10 +61,10 @@
       <div>
         <h1>Certificates</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
-          <img src="/kbs-cert.png" class="image-zoomable" />
-          <img src="/map-cert.png" class="image-zoomable" />
-          <img src="/map-jap-cert.png" class="image-zoomable" />
-          <img src="/apf-cert.jpg" class="image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/kbs-cert.png" class="image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/map-cert.png" class="image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/map-jap-cert.png" class="image-zoomable" />
+          <NuxtImg provider="cloudinary" src="/apf-cert.jpg" class="image-zoomable" />
         </div>
       </div>
     </LayoutPageSection>
