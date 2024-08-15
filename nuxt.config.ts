@@ -86,7 +86,7 @@ export default defineNuxtConfig({
 
   image: {
     twicpics: {
-      baseURL: 'johorpowerlifting.twic.pics'
+      baseURL: 'https://johorpowerlifting.twic.pics'
     }
   },
 
