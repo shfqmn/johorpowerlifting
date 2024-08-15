@@ -61,6 +61,22 @@ export default defineAppConfig({
                 }
               ]
             },
+            {
+              type: 'dropdown',
+              title: 'IPF',
+              children: [
+                {
+                  type: 'link',
+                  title: 'Technical Rulebook',
+                  to: '/ipf/technical-rulebook'
+                },
+                {
+                  type: 'link',
+                  title: 'Approved Equipment List',
+                  to: '/ipf/approved-list'
+                }
+              ]
+            }
             // dynamic title
             // {
             //   type: 'button',
