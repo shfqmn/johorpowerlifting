@@ -40,14 +40,14 @@
             <div class="slider p-2">
               <div class="item">
                 <a href="https://www.instagram.com/bull_training">
-                  <Img src="bull.png" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)" />
-                  <Img src="bull.png" class="object-contain size-[5rem]" v-else />
+                  <NuxtImg provider="twicpics" src="bull.png" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)" />
+                  <NuxtImg provider="twicpics" src="bull.png" class="object-contain size-[5rem]" v-else />
                 </a>
               </div>
               <div class="item">
                 <a href="https://www.instagram.com/hansupower_mas">
-                  <Img src="/hansu.webp" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)"/>
-                  <Img src="/hansu.webp" class="object-contain size-[5rem]" v-else />
+                  <NuxtImg provider="twicpics" src="/hansu.webp" class="object-contain size-[12rem]" v-if="$screen.higherThan('md', $screen.current.value)"/>
+                  <NuxtImg provider="twicpics" src="/hansu.webp" class="object-contain size-[5rem]" v-else />
                 </a>
               </div>
             </div>
@@ -59,27 +59,27 @@
             <div class="slider p-2">
               <div class="item">
                 <a href="https://asia-powerlifting.com">
-                  <Img src="apf.png" width="200" class="img-fluid rounded mx-auto d-block" />
+                  <NuxtImg provider="twicpics" src="apf.png" width="200" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://www.kbs.gov.my">
-                  <Img src="kbs.png" width="205" class="img-fluid rounded mx-auto d-block" />
+                  <NuxtImg provider="twicpics" src="kbs.png" width="205" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://powerliftingmalaysia.com">
-                  <Img src="map.png" width="270" class="img-fluid rounded mx-auto d-block" />
+                  <NuxtImg provider="twicpics" src="map.png" width="270" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://www.adamas.gov.my">
-                  <Img src="adamas.png" width="350" class="img-fluid mx-auto d-block" />
+                  <NuxtImg provider="twicpics" src="adamas.png" width="350" class="img-fluid mx-auto d-block" />
                 </a>
               </div>
               <div class="item">
                 <a href="https://powerlifting.sport">
-                  <Img src="ipf.png" width="270" class="img-fluid rounded mx-auto d-block" />
+                  <NuxtImg provider="twicpics" src="ipf.png" width="270" class="img-fluid rounded mx-auto d-block" />
                 </a>
               </div>
             </div>

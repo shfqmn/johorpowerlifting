@@ -22,7 +22,7 @@ const menus = computed(() =>
       <div>
         <slot name="title">
           <NuxtLink to="/" class="font-bold text-lg">
-            <Img src="/jap_logo.jpg" class="font-black text-xl font-mono mr-2 inline-block rounded-full logo" />
+            <NuxtImg provider="twicpics" src="/jap_logo.jpg" class="font-black text-xl font-mono mr-2 inline-block rounded-full logo" />
           </NuxtLink>
         </slot>
       </div>
