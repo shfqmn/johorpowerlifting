@@ -85,10 +85,9 @@ export default defineNuxtConfig({
   },
 
   image: {
-    domains: ['johorpowerlifting.vercel.app', 'johorpowerlifting.com.my'],
-    quality: 80,
-    provider: 'vercel',
-    format: ['webp', 'jpeg']
+    twicpics: {
+      baseURL: 'johorpowerlifting.twic.pics'
+    }
   },
 
   nitro: {
