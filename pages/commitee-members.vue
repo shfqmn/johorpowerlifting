@@ -3,6 +3,7 @@
     <LayoutPageSection>
       <div>
         <h1>Commitee Members</h1>
+        <Img src="/commitee.jpg" alt="Commitee Members" width="1000" height="500" />
         <ul>
           <li><strong>PRESIDENT:</strong> Vigneswara Muthusamy</li>
           <li><strong>DEPUTY PRESIDENT:</strong> Mohamad Faezal bin Norizan</li>
