@@ -4,6 +4,16 @@
       <div>
         <h1>Asian Classic Powerlifting Championship 2023</h1>
         <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/asians2023/asians-2023-13.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-14.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-15.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-16.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-17.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-18.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-19.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-20.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-21.jpg" class="object-contain w-50 h-auto image-zoomable" />
+          <img src="/asians2023/asians-2023-22.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/asians2023/asians-2023-1.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/asians2023/asians-2023-2.jpg" class="object-contain w-50 h-auto image-zoomable" />
           <img src="/asians2023/asians-2023-3.jpg" class="object-contain w-50 h-auto image-zoomable" />
