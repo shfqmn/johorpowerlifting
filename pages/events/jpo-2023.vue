@@ -2,10 +2,6 @@
   <LayoutPageWrapper>
     <LayoutPageSection>
       <div>
-        <div data-video-id="15125" style="aspect-ratio: 0.56250000; overflow: hidden;">
-
-          <iframe width="100%" height="100%" src="https://app.vidzflow.com/v/vwdm9ohSlN?dq=576&ap=true&muted=true&loop=true&ctp=false&bv=false&piv=false&playsinline=false&bc=%234E5FFD&controls=play-large%2Cplay%2Cprogress%2Ccurrent-time%2Cmute%2Cvolume%2Csettings%2Cfullscreen" title="014 C73 E944 C A3750 F0 C8 A085 E25 A C C B0 Video Dashinit" style="aspect-ratio: 0.56250000; overflow: hidden;" frameborder="0" scrolling="no" allow="fullscreen"></iframe>
-        </div>
         <h1>Johor Powerlifting Open Volume 1 2023</h1>
         <div class="grid grid-cols sm:grid-cols-2 md:grid-cols-3 gap-4">
           <NuxtImg provider="cloudinary" src="/jpo2023/jpo2.jpg" class="object-contain w-50 h-auto image-zoomable" />
