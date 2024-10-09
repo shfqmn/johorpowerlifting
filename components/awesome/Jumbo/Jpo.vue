@@ -25,7 +25,7 @@
             </h1>
             <div class="text-center pt-6">
               <button class="shadow-lg">
-                <AwesomeButton text="Register Now" size="lg" to="https://docs.google.com/forms/d/1b-_twTrtS8dsfl2O7TgFmRTKVg2TPa6E2QhwepYq7Mc" />
+                <AwesomeButton text="Volunteer Registration" size="lg" to="https://forms.gle/yLbUBCQGrpztptTPA" />
               </button>
             </div>
           </div>
