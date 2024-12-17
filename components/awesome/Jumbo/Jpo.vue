@@ -20,7 +20,7 @@
             </h1>
             <div class="text-center pt-6">
               <button class="shadow-lg">
-                <AwesomeButton text="Athlete Registration" size="lg" to="https://docs.google.com/forms/d/e/1FAIpQLSf7c0UJn3ZvK4zgxov8VD0LoBKhf6Toe6u5dpifJam-SIgaZg" />
+                <AwesomeButton text="Athlete Registration" size="lg" to="https://forms.gle/GNWJcQCDhdZw79mF9" />
               </button>
             </div>
           </div>
