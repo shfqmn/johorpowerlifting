@@ -6,8 +6,8 @@
           <div class="wrapper2">
             <NuxtParticles id="tsparticles" :options="options" />
             <div style="z-index: 20" ref="poster" class="pt-2">
-              <NuxtImg provider="cloudinary" src="/public/jpc2025.png" width="750" class="img-fluid rounded mx-auto d-block w-[45rem] h-auto" v-if="$screen.higherThan('md', $screen.current.value)" />
-              <NuxtImg provider="cloudinary" src="/public/jpc2025.png" width="750" class="img-fluid rounded mx-auto d-block w-[29.5rem]" v-else />
+              <img provider="cloudinary" src="/public/jpc2025.png" width="750" class="img-fluid rounded mx-auto d-block w-[45rem] h-auto" v-if="$screen.higherThan('md', $screen.current.value)" />
+              <img provider="cloudinary" src="/public/jpc2025.png" width="750" class="img-fluid rounded mx-auto d-block w-[29.5rem]" v-else />
             </div>
             <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
               <h1 class="text-center text-white pb-1">
