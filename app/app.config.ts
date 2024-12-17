@@ -51,8 +51,13 @@ export default defineAppConfig({
                 },
                 {
                   type: 'link',
-                  title: 'State Records',
-                  to: { name: 'state-records' }
+                  title: 'Men\'s State Records',
+                  to: { name: 'men-state-records' }
+                },
+                {
+                  type: 'link',
+                  title: 'Women\'s State Records',
+                  to: { name: 'women-state-records' }
                 },
                 {
                   type: 'link',
