@@ -6,26 +6,21 @@
           <div class="wrapper2">
             <NuxtParticles id="tsparticles" :options="options" />
             <div style="z-index: 20" ref="poster" class="pt-2">
-              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block w-[35rem] h-auto" v-if="$screen.higherThan('md', $screen.current.value)" />
-              <NuxtImg provider="twicpics" src="/jpo_poster.png" width="550" class="img-fluid rounded mx-auto d-block w-[19.5rem]" v-else />
+              <NuxtImg provider="twicpics" src="/jpc2025.png" width="750" class="img-fluid rounded mx-auto d-block w-[45rem] h-auto" v-if="$screen.higherThan('md', $screen.current.value)" />
+              <NuxtImg provider="twicpics" src="/jpc2025.png" width="750" class="img-fluid rounded mx-auto d-block w-[29.5rem]" v-else />
             </div>
             <div id="countdown" class="d-flex justify-content-center align-items-center countdown pt-6">
               <h1 class="text-center text-white pb-1">
                 <span class="badge text-black">STARTING SOON</span>
               </h1>
-              <div class="clock pt-2">
-                <span>{{ days }}</span>
-                <span>{{ hours }}</span>
-                <span>{{ minutes }}</span>
-                <span>{{ seconds }}</span>
-              </div>
+              <!-- Removed clock -->
             </div>
             <h1 class="text-center text-white pt-3">
-              <span class="badge bg-secondary starting-soon">26.10.2024 - 27.10.2024</span>
+              <span class="badge bg-secondary starting-soon">15.02.2025</span>
             </h1>
             <div class="text-center pt-6">
               <button class="shadow-lg">
-                <AwesomeButton text="Volunteer Registration" size="lg" to="https://forms.gle/yLbUBCQGrpztptTPA" />
+                <AwesomeButton text="Athlete Registration" size="lg" to="https://docs.google.com/forms/d/e/1FAIpQLSf7c0UJn3ZvK4zgxov8VD0LoBKhf6Toe6u5dpifJam-SIgaZg" />
               </button>
             </div>
           </div>
@@ -87,7 +82,6 @@
 </template>
 
 <script setup lang="ts">
-import VanillaTilt from 'vanilla-tilt';
 const poster = ref()
 const $screen = useAwesomeScreen()
 const days = ref()
@@ -135,53 +129,6 @@ if (process.client) {
   // Initial call to set the particle number based on the initial screen size
   updateParticleNumber()
 }
-
-function countdownTimer(days, hours, minutes, seconds) {
-  var s = [days, hours, minutes, seconds]
-  var oneDay = 24 * 60 * 60 * 1000
-  var firstDate = new Date('26 October 2024 9:00 UTC+8')
-  var secondDate = new Date()
-  var days = (firstDate.getTime() - secondDate.getTime()) / oneDay
-  var hrs = (days - Math.floor(days)) * 24
-  var min = (hrs - Math.floor(hrs)) * 60
-  s[0].value = Math.floor(days)
-  s[1].value = Math.floor(hrs)
-  s[2].value = Math.floor(min)
-  s[3].value = Math.floor((min - Math.floor(min)) * 60)
-  var i = setInterval(function () {
-    n()
-  }, 1000)
-  function f(d, x) {
-    s[d].value = x
-    s[d - 1].value = Number(s[d - 1].value) - 1
-  }
-  function n() {
-    s[3].value = Number(s[3].value) - 1
-    if (s[3].value == -1) {
-      f(3, 59)
-      if (s[2].value == -1) {
-        f(2, 59)
-        if (s[1].value == -1) {
-          f(1, 23)
-        }
-      }
-    }
-    if (s[0].innerHTML <= -1) {
-      clearInterval(i)
-    }
-  }
-}
-
-onMounted(async () => {
-  VanillaTilt.init(poster.value, {
-    max: 28,
-    glare: false,
-    'glare-prerender': false,
-    'max-glare': 1,
-    'full-page-listening': true,
-  })
-  countdownTimer(days, hours, minutes, seconds)
-})
 </script>
 <style lang="scss" scoped>
 :root {
@@ -195,47 +142,7 @@ onMounted(async () => {
 }
 
 .clock {
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: space-around;
-  justify-content: center;
-  align-items: center;
-
-  span {
-    font-size: 5vw;
-    color: #fff;
-    margin: 0 1vw;
-    padding: 2.1vw 2.1vw;
-    display: inline-block;
-    width: 15vw;
-    border-radius: 10px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.75);
-    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.5);
-  }
-
-  span:after {
-    font-size: 1.5vw;
-    display: block;
-    margin: 3px 0 -1px;
-    opacity: 0.8;
-  }
-
-  span:nth-of-type(1):after {
-    content: 'days';
-  }
-
-  span:nth-of-type(2):after {
-    content: 'hrs';
-  }
-
-  span:nth-of-type(3):after {
-    content: 'min';
-  }
-
-  span:nth-of-type(4):after {
-    content: 'sec';
-  }
+  display: none; // Hide the clock
 }
 
 #tsparticles {
@@ -271,30 +178,8 @@ onMounted(async () => {
 }
 
 @media (max-width: 768px) {
-  .clock span {
-    font-size: 6.5vw;
-    padding: 4vw 4vw;
-    width: 16vw;
-  }
-
-  .clock span:after {
-    font-size: 3vw;
-  }
-
   .starting-soon {
     color: white;
-  }
-}
-
-@media (min-width: 1920px) {
-  .clock span {
-    font-size: 2vw;
-    padding: 1vw 1vw;
-    width: 10vw;
-  }
-
-  .clock span:after {
-    font-size: 1.5vw;
   }
 }
 </style>
