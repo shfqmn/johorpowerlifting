@@ -19,9 +19,12 @@
       <div class="event-gallery">
         <h2>Gallery</h2>
         <div class="gallery-grid grid grid-cols-2 sm:grid-cols-3 gap-4">
-          <img src="/images/event1.jpg" alt="Event photo 1" />
-          <img src="/images/event2.jpg" alt="Event photo 2" />
-          <img src="/images/event3.jpg" alt="Event photo 3" />
+          <img src="/jpo2024/jpo1.jpg" alt="Event photo 1" />
+          <img src="/jpo2024/jpo2.jpg" alt="Event photo 2" />
+          <img src="/jpo2024/jpo3.jpg" alt="Event photo 3" />
+          <img src="/jpo2024/jpo4.jpg" alt="Event photo 4" />
+          <img src="/jpo2024/jpo5.jpg" alt="Event photo 5" />
+          <img src="/jpo2024/jpo6.jpg" alt="Event photo 6" />
         </div>
       </div>
     </LayoutPageSection>
