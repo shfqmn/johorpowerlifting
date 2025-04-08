@@ -97,6 +97,7 @@ export default defineNuxtConfig({
     preset: 'vercel-static',
     static: true
   },
+  extends: ['nuxt-modal'],
 
   // todo: feat/localization
   // module::i18n

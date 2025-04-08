@@ -36,6 +36,51 @@ html.dark {
   }
 }
 
-
 // components
 @import 'animations/transitions';
+
+/* Homepage Banner Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.hero-title {
+  animation: fadeIn 1s ease-out;
+}
+
+.hero-subtitle {
+  animation: slideUp 1s ease-out 0.5s forwards;
+  opacity: 0;
+}
+
+.hero-buttons {
+  animation: slideUp 1s ease-out 1s forwards;
+  opacity: 0;
+}
+
+/* Countdown Timer Pulse */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.countdown-value {
+  animation: pulse 2s infinite;
+}
+
+/* Event card hover effects */
+.event-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
