@@ -6,7 +6,7 @@
         {{ event?.description || 'Details coming soon!' }}
       </p>
       <div v-if="event" class="event-info">
-        <p><strong>Date:</strong> {{ event.date }}</p>
+        <p><strong>Date:</strong> {{ formattedDate }}</p>
         <p><strong>Location:</strong> {{ event.location }}</p>
       </div>
       <button
@@ -21,13 +21,22 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { getEventByPath } from '../../data/eventsData'
 
 definePageMeta({ layout: 'page' })
 
 const event = getEventByPath('jpo-2025') // Fetch event by path
 const registrationOpen = ref(false) // Set initial value as needed
+
+const formattedDate = computed(() => {
+  if (!event?.date) return ''
+  const date = new Date(event.date)
+  const day = String(date.getDate()).padStart(2, '0')
+  const month = String(date.getMonth() + 1).padStart(2, '0')
+  const year = date.getFullYear()
+  return `${day}/${month}/${year}`
+})
 
 const register = () => {
   alert('Registration process initiated!')
