@@ -24,6 +24,7 @@ const menus = computed(() =>
           <NuxtLink to="/" class="font-bold text-lg">
             <NuxtImg provider="twicpics" src="/jap_logo.jpg" class="font-black text-xl font-mono mr-2 inline-block rounded-full logo" />
           </NuxtLink>
+          <b>Persatuan Powerlifting Johor</b>
         </slot>
       </div>
       <!-- menus -->

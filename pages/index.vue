@@ -150,9 +150,10 @@ function scrollToSection(elementId: string) {
           </h2>
           <div class="max-w-xl mx-auto">
             <p class="text-sm sm:text-base md:text-lg mb-4 sm:mb-6">
-              Wishing our athlete Ryze the very best as he represents us at the
-              Asian Junior & Sub-Junior Championship in Dehradun, India. The
-              entire Johor Powerlifting family is behind you!
+              🌟 Best of luck to Ryze as he takes on the Asian Junior & Sub-Junior Championship in Dehradun, India! 💪
+The Johor Powerlifting family is cheering you on. Give it your all and make us proud! 🇲🇾🔥
+
+#TeamJohor #AsianChampionships #RyzeOnTheRise
             </p>
             <div
               class="flex flex-wrap justify-center gap-3 sm:gap-4 items-center"
