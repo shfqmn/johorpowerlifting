@@ -11,6 +11,12 @@ useHead({
       href: '/jap_logo.jpg',
     },
   ],
+  meta: [
+    {
+      name: 'google-site-verification',
+      content: 'mA9KaOeGzcik8-Pa_8PIiSYeKZ0Xivp_RuicKPFcrpQ'
+    }
+  ]
 })
 </script>
 
